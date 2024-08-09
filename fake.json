@@ -1,0 +1,105 @@
+{
+  "aid": "fakecrm.json",
+  "name": "Fake CRM API",
+  "description": "A collection of APIs for managing companies, contacts, and leads in the Fake CRM system.",
+  "image": "",
+  "apis": [
+    {
+      "name": "Companies API",
+      "description": "API for managing companies in the CRM.",
+      "humanURL": "https://hubspot.com",
+      "baseURL": "https://api.hubspot.com/api-catalog-public/v1/apis",
+      "tags": ["companies", "hubspot"],
+      "properties": [
+        {
+          "type": "OpenAPI",
+          "url": "https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/companies"
+        },
+        {
+          "type": "Documentation",
+          "url": "https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/companies"
+        },
+        {
+          "type": "Authentication",
+          "url": "https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/companies"
+        },
+        {
+          "type": "Security",
+          "url": "https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/companies"
+        },
+        {
+          "type": "JSONSchema",
+          "url": "https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/companies"
+        },
+        {
+          "type": "GitHubRepository",
+          "url": "https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/companies"
+        },
+        {
+          "type": "SoftwareDevelopmentKits",
+          "url": "https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/companies"
+        },
+        {
+          "type": "Contact",
+          "url": "https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/companies"
+        },
+        {
+          "type": "TermsOfService",
+          "url": "https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/companies"
+        },
+        {
+          "type": "PrivacyPolicy",
+          "url": "https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/companies"
+        },
+        {
+          "type": "OpenAPIPluginManifest",
+          "url": "https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/companies"
+        }
+      ],
+      "x-openapi-doc": {
+        "x-openplugin": {
+          "contactEmail": "companies_example@fakecrm.com"
+        }
+      }
+    },
+    {
+      "name": "Contacts API",
+      "description": "API for managing contacts in the CRM.",
+      "humanURL": "https://hubspot.com",
+      "baseURL": "https://api.hubspot.com/api-catalog-public/v1/apis",
+      "tags": ["contacts", "hubspot"],
+      "properties": [
+        {
+          "type": "OpenAPI",
+          "url": "https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/contacts"
+        }
+      ],
+      "x-openapi-doc": {
+        "x-openplugin": {
+          "contactEmail": "contacts_example@fakecrm.com"
+        }
+      }
+    },
+    {
+      "name": "Auth API",
+      "description": "API for managing auth in the CRM.",
+      "humanURL": "https://hubspot.com",
+      "baseURL": "https://api.hubspot.com/api-catalog-public/v1/apis",
+      "tags": ["auth", "hubspot"],
+      "properties": [
+        {
+          "type": "OpenAPI",
+          "url": "https://api.hubspot.com/api-catalog-public/v1/apis/oauth/v1"
+        }
+      ],
+      "x-openapi-doc": {
+        "x-openplugin": {
+          "contactEmail": "auth_example@fakecrm.com"
+        }
+      }
+    }
+  ],
+  "specificationVersion": "1.0.0",
+  "created": "2024-08-05",
+  "modified": "2024-08-05"
+}
