@@ -13,7 +13,7 @@
       "properties": [
         {
           "type": "OpenAPI",
-          "url": "https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/companies"
+          "url": "https://openplugin.s3.amazonaws.com/0786a9e90006487598555c12d869ff8b/openapi/b/f4ec9a31-1f06-4252-9031-5c1660da8a79.json"
         },
         {
           "type": "Documentation",
@@ -71,7 +71,7 @@
       "properties": [
         {
           "type": "OpenAPI",
-          "url": "https://api.hubspot.com/api-catalog-public/v1/apis/crm/v3/objects/contacts"
+          "url": "https://openplugin.s3.amazonaws.com/9a4adc2e885442f2ae7636226321b18b/openapi/b/HubSpot_Contacts.json"
         }
       ],
       "x-openapi-doc": {
